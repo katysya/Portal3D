@@ -14,7 +14,7 @@ export default function Frog({hovered, ...props}) {
     const anim = hovered? "No" : "Idle";
     actions[anim].reset().fadeIn(0.5).play();
 
-    return () => actions[anim].fadeOut(0.5);
+    return () => actions[anim]?.fadeOut(0.5);
   }, [hovered, actions]);
 
   return (
