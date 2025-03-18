@@ -1,0 +1,29 @@
+/*Colors*/
+$white: #fffafa;
+
+$black: #020202;
+
+/*Shadow*/
+$shadow-light: 0 0 3px 0px $black;
+
+/*Radius*/
+$radius-xxxs: 6px;
+$radius-xxs: 10px;
+$radius-xs: 16px;
+$radius-s: 24px;
+$radius-m: 30px;
+$radius-l: 40px;
+
+/*Size*/
+$size: calc(100vw - 375px) / 1545;
+
+/*Media*/
+$mobile: '(max-width: 768px)';
+$mobile500: '(max-width: 500px)';
+$mobile768: '(min-width: 500px) and (max-width: 768px)';
+$tablet: '(min-width: 768px) and (max-width: 1024px)';
+$desktop1024: '(min-width: 1024px) and (max-width: 1200px)';
+$desktop1200: '(min-width: 1200px)';
+$desktop: '(min-width: 1024px)';
+$noMobile: '(min-width: 768px)';
+$noDesktop: '(max-width: 1024px)';
