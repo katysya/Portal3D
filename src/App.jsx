@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Canvas } from "@react-three/fiber";
 
-import SectionPortal from '@/features/Section/ui/SectionPortal/SectionPortal';
+import { SectionPortal } from './features/Section';
 
 import './app/styles/global.scss';
 
